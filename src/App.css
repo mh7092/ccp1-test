@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* نمایش عمودی منو برای موبایل */
+  }
+
+  form {
+    width: 90%; /* تنظیم عرض فرم‌ها */
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+nav ul {
+  list-style-type: none; /* حذف نقطه‌گذاری */
+  padding: 5pt;
+  margin: 0pt;
+  display: flex; /* تنظیم آیتم‌ها به‌صورت افقی */
+  justify-content: center; /* چینش آیتم‌ها در مرکز */
+}
+
+nav ul li {
+  margin: 0 15px; /* فاصله بین آیتم‌ها */
+}
+
+nav ul li a {
+  text-decoration: none; /* حذف زیرخط لینک‌ها */
+  color: #a80091; /* رنگ لینک‌ها */
+  font-size: medium;
+  font-weight: bold;}
+
+nav ul li a:hover {
+  color: #ffff91; /* رنگ لینک‌ها هنگام هاور */
+}
+
+
+.App-header {
+  background-color: #eda4fc;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header1 {
+  background-color: #97bcff;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(203, 46, 255);
+}
+
+.App-link {
+  color: #00a7d5;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

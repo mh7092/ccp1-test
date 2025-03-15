@@ -1,0 +1,48 @@
+.services-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #9f00bf;
+    width: fit-content;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-button:hover {
+    background-color: #c1a700;
+  }
+
+  .service-card {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-image {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+  }
